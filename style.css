@@ -2,17 +2,17 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   outline: none;
 }
 
 ::-moz-selection {
-  background: #F50057;
+  background: #f50057;
   color: #fff;
 }
 
 ::selection {
-  background: #F50057;
+  background: #f50057;
   color: #fff;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .title span {
-  color: #F50057;
+  color: #f50057;
 }
 
 .title span:hover {
@@ -54,7 +54,7 @@ body {
 }
 
 .btn {
-  background: #F50057;
+  background: #f50057;
   font-size: 1.8rem;
   color: #fff;
   padding: 1rem 3rem;
@@ -69,7 +69,7 @@ body {
 }
 
 .btn:active {
-  background: #F50057;
+  background: #f50057;
 }
 
 #header {
@@ -77,15 +77,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 100%;
   min-height: 100vh;
   padding: 5rem 0;
@@ -98,17 +98,17 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   width: 100%;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #header .header-box .item-2 {
@@ -124,15 +124,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
@@ -148,15 +148,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   border-radius: 1rem;
   overflow: hidden;
 }
@@ -164,7 +164,7 @@ body {
 #popup-form .popup-box .popup-close {
   font-size: 4rem;
   padding: 0.5rem;
-  color: #F50057;
+  color: #f50057;
   cursor: pointer;
 }
 
@@ -173,15 +173,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   padding: 1rem 2rem;
   margin-bottom: 2rem;
 }
@@ -196,7 +196,7 @@ body {
 #popup-form .popup-box form input {
   width: 100%;
   font-size: 1.7rem;
-  border: 2px solid #F50057;
+  border: 2px solid #f50057;
   border-radius: 1rem;
   padding: 0.2rem 1rem;
   text-align: center;
@@ -211,7 +211,7 @@ body {
 
 #popup-form .box-anim {
   -webkit-animation: contentLoad 0.5s ease-out !important;
-          animation: contentLoad 0.5s ease-out !important;
+  animation: contentLoad 0.5s ease-out !important;
 }
 
 #main {
@@ -219,19 +219,19 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 100%;
   min-height: 100vh;
   padding: 3rem 0;
-  background: #F50057;
+  background: #f50057;
 }
 
 #main .title {
@@ -249,7 +249,7 @@ body {
   border-radius: 2rem;
   margin-bottom: 5rem;
   -webkit-box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 #main .content i {
@@ -266,12 +266,12 @@ body {
 
 #main .content-anim {
   -webkit-animation: contentLoad 0.5s ease-out !important;
-          animation: contentLoad 0.5s ease-out !important;
+  animation: contentLoad 0.5s ease-out !important;
 }
 
 #main .next-btn {
   background: #fff;
-  color: #F50057;
+  color: #f50057;
   font-size: 3rem;
   border: none;
   padding: 1rem 1.5rem 0.6rem 1.5rem;
@@ -279,7 +279,7 @@ body {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-animation: btnAnimatiom 1s ease-out infinite;
-          animation: btnAnimatiom 1s ease-out infinite;
+  animation: btnAnimatiom 1s ease-out infinite;
 }
 
 #main .next-btn:hover {
@@ -291,7 +291,7 @@ body {
 }
 
 footer {
-  background: #F50057;
+  background: #f50057;
   color: #fff;
   padding: 0.5rem;
   font-size: 1.8rem;
@@ -316,60 +316,60 @@ footer a {
 @-webkit-keyframes btnAnimatiom {
   0% {
     -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    transform: scale(0.9);
   }
   50% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   100% {
     -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    transform: scale(0.9);
   }
 }
 
 @keyframes btnAnimatiom {
   0% {
     -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    transform: scale(0.9);
   }
   50% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   100% {
     -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    transform: scale(0.9);
   }
 }
 
 @-webkit-keyframes contentLoad {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    transform: scale(0.9);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 @keyframes contentLoad {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    transform: scale(0.9);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
@@ -415,15 +415,15 @@ footer a {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   #header .header-box .item-2 {
     width: 80% !important;
